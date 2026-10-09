@@ -28,11 +28,6 @@
     font-display: swap;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     background-color: #0E1014;
     color: #FFFFFF;
@@ -64,8 +59,11 @@ p {
     font-weight: 400;
     text-align: center;
     margin-top: 24px;
-    color: #FFFFFF;
+    
 }
+
+
+
 
 a {
     color: #FFFFFF;
@@ -75,9 +73,10 @@ a {
     background-color: #9747FF;
     width: 340px;
     height: 66px;
-    text-align: center;
+    display: block;   
     line-height: 66px;
     border-radius: 36px;
+    text-align: center;
     margin: 40px auto;
 }
 
